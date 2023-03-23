@@ -4,11 +4,11 @@ import NavBar from './NavBar'
 
 function PageTwo() {
   return (
-    <div>
+    <div className='pageLayout'>
       
       <NavBar /> 
       <h1>Design Features and Specs</h1>
-    <img src={imgTwo} width='80%' alt='img 2'/>
+    <img src={imgTwo} width='100%' alt='img 2'/>
       
     
 

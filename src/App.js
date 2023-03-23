@@ -5,14 +5,15 @@ import PageOne from './PageOne'
 import PageTwo from './PageTwo'
 import PageThree from './PageThree'
 import PageFour from './PageFour'
+import NotFound from './NotFound';
 
 function App() {
   return (
   
     <div className="App">
       <div>
-        <h1 className='frontTitle'>Yanmar YSB-8 & YSB-12 Sales Brochure</h1>
-        <h2 className='indexButton'><Link to='/contents'>Go to Index</Link></h2>
+        <h1 className='frontTitle'>Yanmar YSB-8 & YSB-12 Customer Brochure</h1>
+        <h2 className='indexButton'><Link to='/contents'>Table of Contents</Link></h2>
     </div>
     
          <Routes>
@@ -23,6 +24,9 @@ function App() {
             <Route path='/pagetwo' element={<PageTwo/>}/>
             <Route path='/pagethree' element={<PageThree/>}/>
             <Route path='/pagefour'element={<PageFour/>}/>
+            
+                                
+            <Route path='*' element={<NotFound/>}/>
         
         
         </Routes>

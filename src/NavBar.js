@@ -13,9 +13,9 @@ function NavBar() {
   return (
     <div>
         <ul className='navbar'>
-        
-        <li><button onClick={handleClick}>Page Forward</button></li>
         <li><button onClick={handleClickBack}>Page Back</button></li>
+        <li><button onClick={handleClick}>Page Forward</button></li>
+        
       </ul>
     </div>
   )

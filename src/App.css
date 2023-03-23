@@ -1,84 +1,97 @@
 .App {
-  text-align: center;
-}
+  display:flex;
+  flex-direction: column;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pageLayout{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pageLayout img{
+  width: 80%;
+  margin-top: 0px;
+  padding: 0;
+  box-shadow: 8px 8px rgb(191, 188, 188);
 }
 h1{
-  font-size: 50px;
-  font-family: 'Garamond';
+  font-size: 70px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  margin: 0 2em 0 2em;
 }
+
 .frontTitle{
-  font-size: 80px;
-  font-family: 'Garamond';
-  padding: 60px 0px 60px 0px;
+  font-size: 77px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+  padding: 4rem 2rem;
   width: 80%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 4rem;
   margin-bottom: 10px;
   border: 5px solid black;
-  background: rgb(97, 182, 224);
+  background: rgb(97, 184, 224);
+  box-shadow: 8px 7px rgb(209, 209, 209);
 }
 .indexButton{
   background: whitesmoke;
-  width: 150px;
+  width: 10em;
+  font-family: 'Merriweather';
   margin: auto;
+  text-align: center;
+  margin-top: 5rem;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
+  box-shadow: 8px 7px rgb(209, 209, 209);
 }
 .indexButton a{
   text-decoration: none;
+  font-style: 'Merriweaterh';
   color: black;
 }
 .index{
   display: flex;
-  background: rgb(59, 174, 228);
+  background: rgb(59, 220, 228);
   flex-direction: column;
+  font-family: 'Merriweather';
+  font-weight: bold;
   font-size: 40px;
   width: 800px;
   border: 5px solid black;
+ 
   margin: auto;
   padding: 20px 20px;
-  margin-top: 200px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   align-items: flex-start;
+  box-shadow: 8px 7px rgb(209, 209, 209);
   gap: 30px;
 
 }
 .index a {
   text-decoration: none;
+  
+  
   color: black;
   
+}
+.navbar{
+  display: flex;
+  list-style: none;
+ 
+  padding: 0em;
+  
+}
+.navbar button{
+  font-size: 25px;
+  font-family: 'Merriweather';
+  border-radius: 5px;
+  padding: 5px;
+  width: 8em;
+  margin: 0 25em;
+  box-shadow: 8px 7px rgb(209, 209, 209);
 }
