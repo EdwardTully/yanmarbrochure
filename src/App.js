@@ -1,4 +1,4 @@
-import { Routes, Route, Link} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import './App.css';
 import TableContents from './TableContents';
 import PageOne from './PageOne'
@@ -12,8 +12,8 @@ function App() {
   
     <div className="App">
       <div>
-        <h1 className='frontTitle'>Yanmar YSB-8 & YSB-12 Customer Brochure</h1>
-        <h2 className='indexButton'><Link to='/contents'>Table of Contents</Link></h2>
+        <h1 className='frontTitle'>Yanmar YSB-8 & YSB-12 Brochure</h1>
+        
     </div>
     
          <Routes>
@@ -24,8 +24,6 @@ function App() {
             <Route path='/pagetwo' element={<PageTwo/>}/>
             <Route path='/pagethree' element={<PageThree/>}/>
             <Route path='/pagefour'element={<PageFour/>}/>
-            
-                                
             <Route path='*' element={<NotFound/>}/>
         
         

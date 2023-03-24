@@ -8,7 +8,7 @@ function PageFour() {
       
       <NavBar/>
       <h1>Accessories and Contact Information</h1>
-        <img src={imgFour} width='100%' height='max-height' title='brochure page four' alt='four'/>
+        <img src={imgFour} alt='four'/>
     </div>
   )
 }
