@@ -1,31 +1,28 @@
 .App {
-  display:flex;
+  display: flex;
   flex-direction: column;
-
 }
-.pageLayout{
+.pageLayout {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
 }
-.pageLayout img{
+.pageLayout img {
   width: 80%;
   margin-top: 0px;
   padding: 0;
   box-shadow: 8px 8px rgb(191, 188, 188);
 }
-h1{
+h1 {
   font-size: 70px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: bold;
   margin: 0 2em 0 2em;
 }
 
-.frontTitle{
+.frontTitle {
   font-size: 77px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: bold;
   padding: 4rem 2rem;
   width: 80%;
@@ -37,21 +34,21 @@ h1{
   box-shadow: 8px 7px rgb(209, 209, 209);
 }
 
-.indexButton a{
+.indexButton a {
   text-decoration: none;
-  font-style: 'Merriweather';
+  font-style: "Merriweather";
   color: black;
 }
-.index{
+.index {
   display: flex;
   background: rgb(59, 180, 228);
   flex-direction: column;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: bold;
   font-size: 40px;
   width: 800px;
   border: 5px solid black;
- 
+
   margin: auto;
   padding: 20px 20px;
   margin-top: 5rem;
@@ -59,26 +56,22 @@ h1{
   align-items: flex-start;
   box-shadow: 8px 7px rgb(209, 209, 209);
   gap: 30px;
-
 }
 .index a {
   text-decoration: none;
-  
-  
+
   color: black;
-  
 }
-.navbar{
+.navbar {
   display: flex;
   list-style: none;
   margin-bottom: 5rem;
   padding: 0em;
-  
 }
-.indexButton{
+.indexButton {
   background: whitesmoke;
   width: 10em;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-size: 25px;
   padding-top: 10px;
   margin: auto;
@@ -88,9 +81,9 @@ h1{
   border: 1px solid black;
   box-shadow: 8px 7px rgb(209, 209, 209);
 }
-.navbar button{
+.navbar button {
   font-size: 25px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   border-radius: 5px;
   padding: 5px;
   width: 8em;
@@ -102,37 +95,34 @@ h1{
   display: flex;
   flex-direction: row;
   font-size: 2rem;
-  
 }
-.navbar a{
+.navbar a {
   margin: 0 25px;
   text-decoration: none;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   color: black;
 }
-.navbar a.active{
+.navbar a.active {
   font-weight: bold;
   color: red;
 }
-.salesCall{
-  width:850px;
+.salesCall {
+  width: 850px;
   box-shadow: 8px 7px rgb(209, 209, 209);
   height: 10rem;
   margin: auto;
   border: 5px solid black;
   margin-bottom: 10rem;
   font-size: 2rem;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   background: rgb(243, 33, 33);
-
 }
-.address{
+.address {
   font-size: 50px;
   padding: 50px;
   width: 900px;
- margin: auto;
- background: red;
-margin-top: 50px;
-border: 5px solid black;
-
+  margin: auto;
+  background: red;
+  margin-top: 50px;
+  border: 5px solid black;
 }
