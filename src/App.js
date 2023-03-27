@@ -13,12 +13,22 @@ import Home from './Home';
 
 function App() {
   return (
+<<<<<<< HEAD
   <div>
 
        
+=======
+  
+    <div className="App">
+      <div>
+        <h1 className='frontTitle'>Yanmar YSB-8 & YSB-12 Brochure</h1>
+        
+    </div>
+>>>>>>> e4df83e9f62fd18f3ed49e57ce9db385216f9f5c
     
         <Routes>
           
+<<<<<<< HEAD
             <Route index element={<Home/>}/>
             <Route path='/contents/:id' element={<TableContents/>}/>
             <Route path='/contents/1' element={<PageOne/>}/>
@@ -29,6 +39,14 @@ function App() {
               <Route path='americas' element={<Americas/>}/>
               <Route path='asianpacific' element={<AsiaPac/>}/>
             </Route>
+=======
+            <Route path='/' element={<App/>}/>
+            <Route path='/contents' element={<TableContents/>}/>
+            <Route path='/pageone' element={<PageOne/>}/>
+            <Route path='/pagetwo' element={<PageTwo/>}/>
+            <Route path='/pagethree' element={<PageThree/>}/>
+            <Route path='/pagefour'element={<PageFour/>}/>
+>>>>>>> e4df83e9f62fd18f3ed49e57ce9db385216f9f5c
             <Route path='*' element={<NotFound/>}/>
         
         

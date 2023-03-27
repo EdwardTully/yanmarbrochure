@@ -8,7 +8,7 @@ function PageTwo() {
       
       <NavBar /> 
       <h1>Design Features and Specs</h1>
-    <img src={imgTwo} width='100%' alt='img 2'/>
+    <img src={imgTwo} alt='img 2'/>
       
     
 

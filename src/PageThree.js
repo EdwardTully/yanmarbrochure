@@ -8,7 +8,7 @@ function PageThree() {
      
       <NavBar/>
       <h1>Design Features and Specs</h1>
-        <img src={imgThree} width='100%' height='max-height' title='brochure page three' alt='three'/>
+        <img src={imgThree}   alt='three'/>
     </div>
   )
 }
