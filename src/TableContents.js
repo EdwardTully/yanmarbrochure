@@ -5,10 +5,11 @@ function TableContents() {
   return (
     <div>
         <ul className='index'>
-            <Link to='/pageone'>The YSB Series</Link>
-            <Link to='/pagetwo'>Design Features and YSB-8 Dimensions</Link>
-            <Link to='/pagethree'>YSB-12 Dimensions</Link>
-            <Link to='/pagefour'>Accessories and Contact Information</Link>
+            <Link to='/'>Home</Link>
+            <Link to='/contents/1'>The YSB Series</Link>
+            <Link to='/contents/2'>Design Features and YSB-8 Dimensions</Link>
+            <Link to='/contents/3'>YSB-12 Dimensions</Link>
+            <Link to='/contents/4'>Accessories and Export Information</Link>
         </ul>
 
     </div>

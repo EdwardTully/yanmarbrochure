@@ -5,7 +5,9 @@ import imgOne from './pages/yanmar-YSB-Brochure-part-1.jpg'
 
 
 
+
 function PageOne() {
+   
   return (
     <div className='pageLayout'>
       

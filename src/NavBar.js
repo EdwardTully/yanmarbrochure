@@ -1,23 +1,21 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
-    let navigate = useNavigate()
 
-    function handleClick(){
-      navigate(1)
-    }
-    function handleClickBack(){
-      navigate(-1)
-    }
+   
   return (
-    <div>
-        <ul className='navbar'>
-        <li><button onClick={handleClickBack}>Page Back</button></li>
-        <li><button onClick={handleClick}>Page Forward</button></li>
-        
+    <nav>
+      
+       <ul className='navbar'>
+          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/contents/:id'>Index</NavLink>
+          <NavLink to='/contents/1'>Page One</NavLink>
+          <NavLink to= '/contents/2'>Page Two</NavLink>
+          <NavLink to='/contents/3'>Page Three</NavLink>
+          <NavLink to='/contents/4'>Page Four</NavLink>
       </ul>
-    </div>
+    </nav>
   )
 }
 
