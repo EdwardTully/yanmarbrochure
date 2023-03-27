@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 
 function TableContents() {
   return (
-    <div>
+    <div className='indexBox'>
         <NavBar/>
         <ul className='index'>
             <Link to='/'>Home</Link>

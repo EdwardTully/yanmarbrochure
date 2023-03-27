@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
 }
+.App .navbar{
+  margin-left: 350px;
+}
+.indexBox .navbar{
+  margin-left: 370px;
+}
 .pageLayout {
   display: flex;
   flex-direction: column;
